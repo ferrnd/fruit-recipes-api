@@ -16,7 +16,7 @@ The database used in this project contains a table with 20 fruit records, each h
 - Controllers to handle business logic and error handling
 - Prisma ORM integration for database queries
 - Basic read operations:
-  - List all recipes (fruits in this example)
-  - Get a single recipe by ID (fruit by ID)
+- List all recipes (fruits in this example)
+- Get a single recipe by ID (fruit by ID)
 
 ---
