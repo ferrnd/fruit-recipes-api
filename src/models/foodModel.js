@@ -6,7 +6,7 @@ export const encontreTodos = async () => {
     return await prisma.food.findMany({ orderBy: { nome: "asc" } });
 };
 
-export const encontreUm = async () => {
+export const encontreUm = async (id) => {
 
     return await prisma.food.findUnique({
         where: { id: Number(id) },
